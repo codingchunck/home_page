@@ -1,0 +1,126 @@
+/* css Reset */
+body {
+  font-family: "Baloo Bhaina 2";
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("../photo/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  background-color: black;
+  /* border-radius: 13px; */
+  height: 75px;
+}
+
+.left {
+  display: inline-block;
+  /* border: 3px solid red; */
+  position: absolute;
+  /* left: 31px; */
+  /* top: 35px; */
+}
+
+.left img {
+  margin: auto;
+  padding: 4px 10px;
+  width: 95px;
+  filter: invert(100%);
+}
+
+.left h4 {
+  display: inline-block;
+  line-height: 11px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mid {
+  padding: 5px 7px;
+  display: block;
+  width: 43%;
+  margin: 0px auto;
+  /* border: 2px solid green; */
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 12px;
+  display: inline-block;
+  /* border: 2px solid pink; */
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 17px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 12px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: rgb(80, 52, 235);
+}
+
+.btn {
+  font-family: "Baloo Bhaina 2";
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 1px 22px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(36, 32, 32);
+}
+
+.container {
+  background-color: #c9dbf56b;
+  border: 2px solid black;
+  margin: 75px 88px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+}
+
+.form-group input {
+  font-family: "Baloo Bhaina 2";
+  text-align: center;
+  display: block;
+  width: 411px;
+  /* padding: 1px; */
+  border: 2px solid black;
+  margin: 10px auto;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.container h1 {
+  font-size: 29px;
+  color: BLACK;
+  text-align: center;
+}
+
+.container button {
+  display: inline-block;
+  width: 37%;
+  margin-left: 30px;
+  padding: 9px;
+}
